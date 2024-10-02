@@ -1,0 +1,165 @@
+Health Regression                           
+==============================================================================
+Dep. Variable:             lifeladder   R-squared:                       0.943
+Model:                            OLS   Adj. R-squared:                  0.937
+Method:                 Least Squares   F-statistic:                     165.4
+Date:                Tue, 01 Oct 2024   Prob (F-statistic):           6.19e-41
+Time:                        16:38:06   Log-Likelihood:                -40.004
+No. Observations:                  78   AIC:                             96.01
+Df Residuals:                      70   BIC:                             114.9
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+====================================================================================
+                       coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------------
+const               -4.4794      2.327     -1.925      0.058      -9.121       0.162
+health_gdp           0.0555      0.038      1.450      0.152      -0.021       0.132
+health_capita    -1.871e-05   5.37e-05     -0.349      0.729      -0.000    8.83e-05
+life_expectancy      0.1076      0.029      3.715      0.000       0.050       0.165
+mortality            0.0251      0.007      3.672      0.000       0.011       0.039
+safe_water           0.0205      0.010      1.982      0.051      -0.000       0.041
+undernourishment    -0.0151      0.009     -1.613      0.111      -0.034       0.004
+uhc                  0.0067      0.014      0.494      0.623      -0.020       0.034
+==============================================================================
+Omnibus:                       31.470   Durbin-Watson:                   1.072
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               73.035
+Skew:                          -1.367   Prob(JB):                     1.38e-16
+Kurtosis:                       6.873   Cond. No.                     1.60e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.6e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+[Finished in 5.7s]
+
+
+
+Government Regressional Analysis                           
+==============================================================================
+Dep. Variable:             lifeladder   R-squared:                       0.693
+Model:                            OLS   Adj. R-squared:                  0.687
+Method:                 Least Squares   F-statistic:                     121.3
+Date:                Sun, 29 Sep 2024   Prob (F-statistic):           5.84e-54
+Time:                        17:32:08   Log-Likelihood:                -163.42
+No. Observations:                 220   AIC:                             336.8
+Df Residuals:                     215   BIC:                             353.8
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=======================================================================================
+                          coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------
+const                   3.0001      0.211     14.198      0.000       2.584       3.417
+control_corruption     -0.0090      0.009     -0.982      0.327      -0.027       0.009
+gov_effect              0.0531      0.008      7.036      0.000       0.038       0.068
+political_stability     0.0013      0.003      0.505      0.614      -0.004       0.007
+violence_rate         8.42e-05      0.001      0.073      0.942      -0.002       0.002
+==============================================================================
+Omnibus:                       93.710   Durbin-Watson:                   0.456
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              675.114
+Skew:                          -1.467   Prob(JB):                    2.52e-147
+Kurtosis:                      11.065   Cond. No.                         951.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[Finished in 6.6s]
+
+
+******`kurtosistest` p-value may be inaccurate with fewer than 20 observations; only n=10 observations were given.
+  return hypotest_fun_in(*args, **kwds)
+
+Education Regression Results                            
+==============================================================================
+Dep. Variable:             lifeladder   R-squared:                       0.977
+Model:                            OLS   Adj. R-squared:                  0.949
+Method:                 Least Squares   F-statistic:                     34.23
+Date:                Sun, 29 Sep 2024   Prob (F-statistic):            0.00223
+Time:                        17:35:06   Log-Likelihood:                 5.1934
+No. Observations:                  10   AIC:                             1.613
+Df Residuals:                       4   BIC:                             3.429
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=============================================================================================
+                                coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------------------
+const                         3.9874      0.694      5.748      0.005       2.061       5.914
+pop_bach                      0.0007      0.025      0.027      0.980      -0.069       0.071
+edu_gdp                      -0.3193      0.088     -3.628      0.022      -0.564      -0.075
+edu_exp                       0.0407      0.022      1.807      0.145      -0.022       0.103
+lit_rate                     -0.0139      0.009     -1.496      0.209      -0.040       0.012
+secondedu_completion_rate     0.0362      0.012      3.008      0.040       0.003       0.070
+
+==============================================================================
+Omnibus:                        0.661   Durbin-Watson:                   1.708
+Prob(Omnibus):                  0.719   Jarque-Bera (JB):                0.571
+Skew:                           0.200   Prob(JB):                        0.751
+Kurtosis:                       1.899   Cond. No.                         865.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[Finished in 6.8s]
+
+Enviornment Regressional Analysis                                                    
+==============================================================================
+Dep. Variable:             lifeladder   R-squared:                       0.633
+Model:                            OLS   Adj. R-squared:                  0.616
+Method:                 Least Squares   F-statistic:                     37.94
+Date:                Sun, 29 Sep 2024   Prob (F-statistic):           2.27e-14
+Time:                        18:22:21   Log-Likelihood:                -106.95
+No. Observations:                  70   AIC:                             221.9
+Df Residuals:                      66   BIC:                             230.9
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===================================================================================
+                      coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               6.1047      0.402     15.189      0.000       5.302       6.907
+co2                 0.1689      0.029      5.732      0.000       0.110       0.228
+pm2                -0.0187      0.004     -4.797      0.000      -0.026      -0.011
+protected_areas    -0.0018      0.013     -0.145      0.885      -0.027       0.023
+==============================================================================
+Omnibus:                        5.897   Durbin-Watson:                   0.730
+Prob(Omnibus):                  0.052   Jarque-Bera (JB):                4.372
+Skew:                           0.481   Prob(JB):                        0.112
+Kurtosis:                       2.243   Cond. No.                         241.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[Finished in 7.2s]
+
+Economy Regressional Analysis                       
+==============================================================================
+Dep. Variable:             lifeladder   R-squared:                       0.928
+Model:                            OLS   Adj. R-squared:                  0.922
+Method:                 Least Squares   F-statistic:                     159.5
+Date:                Sun, 29 Sep 2024   Prob (F-statistic):           3.02e-40
+Time:                        17:56:35   Log-Likelihood:                -6.7392
+No. Observations:                  81   AIC:                             27.48
+Df Residuals:                      74   BIC:                             44.24
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+==================================================================================
+                     coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------
+const              9.2834      1.303      7.125      0.000       6.687      11.880
+cpi               -0.0112      0.001    -10.306      0.000      -0.013      -0.009
+gdp_capita         0.1744      0.455      0.384      0.702      -0.731       1.080
+gdp_capita_ppp    -0.2628      0.513     -0.512      0.610      -1.284       0.759
+gini               0.0240      0.006      3.769      0.000       0.011       0.037
+pov_pop           -0.0717      0.009     -8.325      0.000      -0.089      -0.055
+unemployment       0.0062      0.014      0.452      0.653      -0.021       0.033
+==============================================================================
+Omnibus:                       12.332   Durbin-Watson:                   1.583
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               25.464
+Skew:                          -0.452   Prob(JB):                     2.96e-06
+Kurtosis:                       5.594   Cond. No.                     5.58e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 5.58e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+[Finished in 8.8s]
