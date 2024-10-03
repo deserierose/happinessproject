@@ -7,16 +7,16 @@ However, the purpose of this analysis is to conduct a deeper investigation on ad
 
 ## Project Objective 
 
-Identify key indicators that have the highest impact on a country's overall happiness
-Identify trends between indicators and happiness scores
-Provide recommendations for policy makers to improve the overall happiness of a country 
+* Identify key indicators that have the highest impact on a country's overall happiness
+* Identify trends between indicators and happiness scores
+* Provide recommendations for policy makers to improve the overall happiness of a country 
 
 #### Methodology 
 
-SQL - queries utilized to clean, organize and prepare data can be found here
-Python - processes utilized to perform statistical analysis can be found here 
-Statistical Analysis - Further details on data analysis methodology and statistical analysis can be found here 
-Tableau - an interactive dashboard can be downloaded here 
+* SQL - queries utilized to clean, organize and prepare data can be found here
+* Python - processes utilized to perform statistical analysis can be found here 
+* Statistical Analysis - Further details on data analysis methodology and statistical analysis can be found here 
+* Tableau - an interactive dashboard can be downloaded here 
 
 
 
