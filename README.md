@@ -15,7 +15,7 @@ However, the purpose of this analysis is to conduct a deeper investigation on ad
 
 * SQL - queries utilized to clean, organize and prepare data can be found here
 * Python - processes utilized to perform statistical analysis can be found here 
-* Statistical Analysis - Further details on data analysis methodology and statistical analysis can be found here 
+* Statistical Analysis - Further details on data analysis methodology and statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/ad9c0e5c66ef2e80e9c5db63da80c52f4031bf32/project-happiness-methodology.ipynb)
 * Tableau - an interactive dashboard can be downloaded here 
 
 
