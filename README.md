@@ -22,10 +22,17 @@ However, the purpose of this analysis is to conduct a deeper investigation on ad
 
 # Data Structure 
 
-Happiness Report 2,200 rows (all countries from 2008-2022)
-World Bank Open Data: World Development Indicators Database 
-Each indicator was grouped within one of four datasets (health, environment, economy, government, education). Health dataset contained over 16,000 records, government 7,000, education 12,000, environment 6,000 records, economy 14,000 records 
-WHO data: dataUNODC database (Violent and Sexual Crime Dataset) 6,000 records
+The following databases were used to pull various indicator records from 2012 to 2022. Each indicator was grouped within one of five datasets (health, environment, economy, government, education). A countryid was assigned to each country to connect datasets. Prior to analysis, data cleaning and manipulation was conducted. For methodoly and queries, see repository. 
 
-Assigned a countryid to as primary key to connect datasets 
+* Happiness Report: 2,200 records (all countries from 2008-2022)
+* World Bank Open Data: World Development Indicators Database 
+   * Health dataset: 16,000 records
+   * Government dataset: 7,000 records
+   * Education dataset: 12,000 records
+   * Environment dataset: 6,000 records
+   * Economy dataset: 14,000 records 
+* WHO data: dataUNODC database (Violent and Sexual Crime Dataset): 6,000 records
+
+<img width="764" alt="Screen Shot 2024-10-03 at 7 29 44 PM" src="https://github.com/user-attachments/assets/d8e1ae77-aa93-4b0e-940a-ce8cca6b7cd3">
+
 
