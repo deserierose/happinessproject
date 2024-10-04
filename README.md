@@ -1,3 +1,5 @@
+# Happiness Project 
+
 # Overview
 
 The disparity in happiness among countries has been well established by the World Happiness Report, founded in 2012. Their thorough investigation of confounding factors related to happiness scores has provided valuable insights into economic and social trends around the world.
