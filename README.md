@@ -22,7 +22,7 @@ However, the purpose of this analysis is to conduct a deeper investigation on ad
 
 # Data Structure 
 
-The following databases were used to pull various indicator records from 2012 to 2022. Each indicator was grouped within one of five datasets (health, environment, economy, government, education). A countryid was assigned to each country to connect datasets. Prior to analysis, data cleaning and manipulation was conducted. For methodoly and queries, see repository. 
+The following databases were used to pull various indicator records from 2012 to 2022. Each indicator was grouped within one of five datasets (health, environment, economy, government and education). A country ID was assigned to each country name to connect datasets. Prior to analysis, data cleaning and manipulation was conducted. For methodoly and queries, see repository. 
 
 * Happiness Report: 2,200 records (all countries from 2008-2022)
 * World Bank Open Data: World Development Indicators Database 
@@ -34,5 +34,44 @@ The following databases were used to pull various indicator records from 2012 to
 * WHO data: dataUNODC database (Violent and Sexual Crime Dataset): 6,000 records
 
 <img width="764" alt="Screen Shot 2024-10-03 at 7 29 44 PM" src="https://github.com/user-attachments/assets/d8e1ae77-aa93-4b0e-940a-ce8cca6b7cd3">
+
+
+# Executive Summary
+
+## Overview of Findings 
+
+The most significant indicators influencing a country's overall happiness are health and education. The greatest relationship and predictive power is basic healthcare access, particularly clean drinking water and life expectancy. While numerous confounding factors affect a country's happiness, the following sections will explore additional impactful indicators and highlight key insights for happiness improvement opportunities. 
+
+Below is an overview dashboard showcasing the average happiness scores and indicators from 2012 to 2022. The statistical relationship will be detailed throughout the report. The interactive dashboard can be accessed here. 
+
+### Indicator Trends 
+
+* Over 50% of the indicators had a correlation greater than 0.8
+* Strongest relationships with happiness score: health, education and economy category
+* Regression analysis looks at how much the happiness score is expected to change depending on the indicator value
+* Category with the strongest effect on happiness: health, education and economy category
+* The most statistically significant indicators are visualized in this dashboard. The statistical analysis can be accessed here
+
+
+### Key Predictive Indicators 
+
+* Indicators with a statistical significance (P value < 0.05) and a correlation greater than 0.8 are visualized below
+* Health is the highest predictive indicator for happiness with universal health care and health expenditure having a high correlation (> 0.8)
+* Lower education completion rate is another predictive indicator, however, the country's expenditure on education is not significant and did not have a high correlation
+* This can be due to factor's (such as poverty, lack of access to basic needs etc.) limiting children from completing lower secondary education and can explain the high predictive indicators of a country's poverty population and government effectiveness
+
+
+### Recommendations 
+
+* First recommendation: Increase government's effectiveness in health expenditure allocation for basic health care
+* Second recommendation: Improve government spending allocation to address issues that limit children from completing lower secondary school (for example, addressing poverty)
+* Recommended initiatives can include providing meals in lower secondary schools and increasing job oppourtunities in lower secondary school systems 
+
+#### Next Steps 
+* After implementation of recommended initiatives, an analysis of government spending, effectiveness and happiness scores is highly recommended to further explore its effectiveness and impact
+*  Other indicators to be further explored include: population density and its effectives of government effectiveness and spending
+*  Some limitations to this analysis include the lack of information to environmental indicators such as access to green spaces, safe living conditions etc. Further explortation to environmental indicators is highly recommended given the significant effect of PM2 and CO2 emmisions on happiness
+*  Another limitation to the study included the lack of data provided by countries, attributing to NULL values. It's important to include NULL values in the analysis. For example, violence rates and literacy rates were not reported in most of the 20 bottom ranked countries which may have led to significance to the analysis. In addition, there are top and bottom ranking countries who did not report lower secondary completion rates for some years. When dealing with large datasets between countries it's important to address this concern and designing an analysis that can adress this issue. 
+
 
 
