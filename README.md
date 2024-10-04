@@ -16,7 +16,7 @@ However, the purpose of this analysis is to conduct a deeper investigation into 
 * SQL - queries utilized to clean, organize and prepare data can be found [here](https://github.com/deserierose/happinessproject/blob/d95f15a1977e57aecc3df5295e3adc4cd960720d/happiness-project-notebook.ipynb)
 * Python - processes utilized to perform statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/d95f15a1977e57aecc3df5295e3adc4cd960720d/happiness-project-notebook.ipynb) 
 * Statistical Analysis - Further details on methodology and statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/ad9c0e5c66ef2e80e9c5db63da80c52f4031bf32/project-happiness-methodology.ipynb)
-* Tableau - an interactive dashboard can be downloaded [here](https://public.tableau.com/shared/7Q65C3GCH?:display_count=n&:origin=viz_share_link) 
+* Tableau - an overview interactive dashboard can be downloaded [here](https://public.tableau.com/shared/7Q65C3GCH?:display_count=n&:origin=viz_share_link) 
  
 # Data Structure 
 
