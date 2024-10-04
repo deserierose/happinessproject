@@ -1,28 +1,28 @@
 # Overview
 
-The disparity of happiness amongst countries has been well established by the World Happiness Report, founded in 2012. Their thorough investigation between confounding factors with happiness scores has provided valuable insight into economic and social trends around the world. 
+The disparity in happiness among countries has been well established by the World Happiness Report, founded in 2012. Their thorough investigation of confounding factors related to happiness scores has provided valuable insights into economic and social trends around the world.
 
-However, the purpose of this analysis is to conduct a deeper investigation on additional indicators that may affect a country’s happiness and to provide a comprehensive view of the data from 2012 to 2022. This analysis provides an up to date summarization of happiness score trends and aims to provide targeted recommendations for policy makers, improving the quality of life within impoverished nations.
+However, the purpose of this analysis is to conduct a deeper investigation into additional indicators that may affect a country’s happiness and to provide a comprehensive view of the data from 2012 to 2022. This analysis offers an up-to-date summary of happiness score trends and aims to provide targeted recommendations for policymakers to improve the quality of life in impoverished nations.
 
 
 ## Project Objective 
 
-* Identify key indicators that have the highest impact on a country's overall happiness
+* Identify key indicators that have the greatest impact on a country's overall happiness
 * Identify trends between indicators and happiness scores
-* Provide recommendations for policy makers to improve the overall happiness of a country 
+* Provide recommendations for policymakers to improve a country's overall happiness
 
 #### Methodology 
 
 * SQL - queries utilized to clean, organize and prepare data can be found here
 * Python - processes utilized to perform statistical analysis can be found here 
-* Statistical Analysis - Further details on data analysis methodology and statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/ad9c0e5c66ef2e80e9c5db63da80c52f4031bf32/project-happiness-methodology.ipynb)
+* Statistical Analysis - Further details on methodology and statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/ad9c0e5c66ef2e80e9c5db63da80c52f4031bf32/project-happiness-methodology.ipynb)
 * Tableau - an interactive dashboard can be downloaded here 
 
 
 
 # Data Structure 
 
-The following databases were used to pull various indicator records from 2012 to 2022. Each indicator was grouped within one of five datasets (health, environment, economy, government and education). A country ID was assigned to each country name to connect datasets. Prior to analysis, data cleaning and manipulation was conducted. For methodoly and queries, see repository. 
+The following databases were used to extract various indicator records from 2012 to 2022. Each indicator was categorized within one of five datasets: health, environment, economy, government, and education. A country ID was assigned to each country name to connect datasets. Prior to analysis, data cleaning and manipulation were performed. For methodology and queries, please refer to the repository.
 
 * Happiness Report: 2,200 records (all countries from 2008-2022)
 * World Bank Open Data: World Development Indicators Database 
@@ -40,25 +40,25 @@ The following databases were used to pull various indicator records from 2012 to
 
 ## Overview of Findings 
 
-The most significant indicators influencing a country's overall happiness are health and education. The greatest relationship and predictive power is basic healthcare access, particularly clean drinking water and life expectancy. While numerous confounding factors affect a country's happiness, the following sections will explore additional impactful indicators and highlight key insights for happiness improvement opportunities. 
+The most significant indicators influencing a country's overall happiness are health and education. The greatest relationship and predictive indiciator is access to basic healthcare, particularly clean drinking water and life expectancy. While numerous confounding factors affect a country's happiness, the following sections will explore additional impactful indicators and highlight key insights for happiness improvement opportunities. 
 
-Below is an overview dashboard showcasing the average happiness scores and indicators from 2012 to 2022. The statistical relationship will be detailed throughout the report. The interactive dashboard can be accessed here. 
+Below is an overview dashboard showcasing the average happiness scores and indicators from 2012 to 2022. The statistical relationship will be detailed throughout the report and the interactive dashboard can be accessed here. 
 
 ### Indicator Trends 
 
 * Over 50% of the indicators had a correlation greater than 0.8
-* Strongest relationships with happiness score: health, education and economy category
-* Regression analysis looks at how much the happiness score is expected to change depending on the indicator value
-* Category with the strongest effect on happiness: health, education and economy category
-* The most statistically significant indicators are visualized in this dashboard. The statistical analysis can be accessed here
-
+* The strongest relationships with happiness scores are found in the health, education, and economy categories
+* Regression analysis examines how much the happiness score is expected to change based on the indicator value
+* The categories with the strongest effect on happiness are health, education, and economy
+* The correlational analysis can be found in a supplementary dashboard here
 
 ### Key Predictive Indicators 
 
-* Indicators with a statistical significance (P value < 0.05) and a correlation greater than 0.8 are visualized below
-* Health is the highest predictive indicator for happiness with universal health care and health expenditure having a high correlation (> 0.8)
-* Lower education completion rate is another predictive indicator, however, the country's expenditure on education is not significant and did not have a high correlation
-* This can be due to factor's (such as poverty, lack of access to basic needs etc.) limiting children from completing lower secondary education and can explain the high predictive indicators of a country's poverty population and government effectiveness
+* Indicators with statistical significance (p-value < 0.05) and a correlation greater than 0.8 are visualized below and can be accessed here 
+* Health is the strongest predictive indicator for happiness, with universal healthcare and health expenditure showing a high correlation (> 0.8)
+* The lower secondary education completion rate is another predictive indicator; however, the country’s expenditure on education is not significant and does not have a strong correlation
+* This may be due to factors (such as poverty and lack of access to basic needs) that limit children's ability to complete lower secondary education, which helps explain the high predictive indicators of a country’s poverty rate and government effectiveness
+
 
 
 ### Recommendations 
@@ -68,10 +68,11 @@ Below is an overview dashboard showcasing the average happiness scores and indic
 * Recommended initiatives can include providing meals in lower secondary schools and increasing job oppourtunities in lower secondary school systems 
 
 #### Next Steps 
-* After implementation of recommended initiatives, an analysis of government spending, effectiveness and happiness scores is highly recommended to further explore its effectiveness and impact
-*  Other indicators to be further explored include: population density and its effectives of government effectiveness and spending
-*  Some limitations to this analysis include the lack of information to environmental indicators such as access to green spaces, safe living conditions etc. Further explortation to environmental indicators is highly recommended given the significant effect of PM2 and CO2 emmisions on happiness
-*  Another limitation to the study included the lack of data provided by countries, attributing to NULL values. It's important to include NULL values in the analysis. For example, violence rates and literacy rates were not reported in most of the 20 bottom ranked countries which may have led to significance to the analysis. In addition, there are top and bottom ranking countries who did not report lower secondary completion rates for some years. When dealing with large datasets between countries it's important to address this concern and designing an analysis that can adress this issue. 
+
+* After the implementation of recommended initiatives, an analysis of government spending, government effectiveness, and happiness scores is highly recommended to further explore their effectiveness and impact.
+* Other indicators to be further explored include population density and its effect on government effectiveness and spending.
+* Some limitations of this analysis include the lack of information on environmental indicators, such as access to green spaces and safe living conditions. Further exploration of environmental indicators is highly recommended, given the significant effects of PM2.5 and CO2 emissions on happiness.
+* Another limitation of the study is the lack of data provided by countries, resulting in NULL values. It is important to account for NULL values in the analysis. For example, violence rates and literacy rates were not reported in most of the 20 bottom-ranked countries, which may have affected its significance to the analysis. Additionally, some top and bottom-ranked countries did not report lower secondary completion rates for certain years. When dealing with large datasets across countries, it is essential to address this concern and design an analysis that can accommodate these issues.
 
 
 
