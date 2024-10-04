@@ -13,13 +13,16 @@ However, the purpose of this analysis is to conduct a deeper investigation into 
 
 #### Methodology 
 
-* SQL - queries utilized to clean, organize and prepare data can be found here
-* Python - processes utilized to perform statistical analysis can be found here 
+* SQL - queries utilized to clean, organize and prepare data can be found [here](https://github.com/deserierose/happinessproject/blob/d95f15a1977e57aecc3df5295e3adc4cd960720d/happiness-project-notebook.ipynb)
+* Python - processes utilized to perform statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/d95f15a1977e57aecc3df5295e3adc4cd960720d/happiness-project-notebook.ipynb) 
 * Statistical Analysis - Further details on methodology and statistical analysis can be found [here](https://github.com/deserierose/happinessproject/blob/ad9c0e5c66ef2e80e9c5db63da80c52f4031bf32/project-happiness-methodology.ipynb)
-* Tableau - an interactive dashboard can be downloaded here 
+* Tableau - an interactive dashboard can be downloaded [here](https://public.tableau.com/shared/7Q65C3GCH?:display_count=n&:origin=viz_share_link) 
 
 
 
+<img width="1103" alt="Screen Shot 2024-10-04 at 4 11 03 PM" src="https://github.com/user-attachments/assets/8fa34a0b-063f-40c8-bc55-20a00fd09851">
+
+ 
 # Data Structure 
 
 The following databases were used to extract various indicator records from 2012 to 2022. Each indicator was categorized within one of five datasets: health, environment, economy, government, and education. A country ID was assigned to each country name to connect datasets. Prior to analysis, data cleaning and manipulation were performed. For methodology and queries, please refer to the repository.
@@ -32,6 +35,7 @@ The following databases were used to extract various indicator records from 2012
    * Environment dataset: 6,000 records
    * Economy dataset: 14,000 records 
 * WHO data: dataUNODC database (Violent and Sexual Crime Dataset): 6,000 records
+
 
 <img width="764" alt="Screen Shot 2024-10-03 at 7 29 44 PM" src="https://github.com/user-attachments/assets/d8e1ae77-aa93-4b0e-940a-ce8cca6b7cd3">
 
