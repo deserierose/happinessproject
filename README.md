@@ -55,6 +55,9 @@ Below is an overview dashboard showcasing the average happiness scores and indic
 * The categories with the strongest effect on happiness are health, education, and economy
 * The correlational analysis can be found in a supplementary dashboard [here](https://public.tableau.com/views/SupplementaryCorrelationandRegression/Supplement?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
+  <img width="1018" alt="Screen Shot 2024-10-04 at 4 44 08 PM" src="https://github.com/user-attachments/assets/2fb14e26-e610-46fa-9cc3-b5a28d53a43e">
+
+
 ### Key Predictive Indicators 
 
 * Indicators with statistical significance (p-value < 0.05) and a correlation greater than 0.8 are visualized below and can be accessed [here](https://public.tableau.com/views/HappinessCorrelationandRegression/Analysis_dash?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
@@ -62,8 +65,7 @@ Below is an overview dashboard showcasing the average happiness scores and indic
 * The lower secondary education completion rate is another predictive indicator; however, the country’s expenditure on education is not significant and does not have a strong correlation
 * This may be due to factors (such as poverty and lack of access to basic needs) that limit children's ability to complete lower secondary education, which helps explain the high predictive indicators of a country’s poverty rate and government effectiveness
 
-
-<img width="1096" alt="Screen Shot 2024-10-04 at 4 24 29 PM" src="https://github.com/user-attachments/assets/88d0cdc4-15ae-47be-8d53-e836c418e957">
+<img width="1093" alt="Screen Shot 2024-10-04 at 4 46 31 PM" src="https://github.com/user-attachments/assets/53e6b2f0-88fb-4276-b0a0-f7dbb2a137cd">
 
 
 ### Recommendations 
